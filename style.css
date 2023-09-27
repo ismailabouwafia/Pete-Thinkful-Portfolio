@@ -98,8 +98,18 @@ Anchor tags should have a color of #d62828. On hover, they should change their c
 
 /* Difficulties:
 1- Circular image border is not showing
+border-width: 20px; is not working
+
 2- Can't add "spaces" after each link
+???
 3- too much space before Pete's Background
+fixed by making it as 1 article instead of two
+
 4- all my text is centered, can't get it to align left -- I think this has to do with nested divs
+tried this but not working
+article id="#About" {
+  text-align: left;
+}
+
 5- Lists' bullets and numbers are way to the left 
 */
