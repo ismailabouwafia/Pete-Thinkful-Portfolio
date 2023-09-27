@@ -1,0 +1,104 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+
+body {
+  color: #003049; 
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #eae2b7;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1, h2, h3  {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+header, footer  {
+  text-align: center;
+}
+
+
+.image-circle {
+  border-radius: 50%;
+  border-width: 20px;
+  border-color: #003049;
+  
+}
+
+a:link { color: #d62828}
+a:hover {color: #f77f00}
+
+
+/*
+The About, Hi! I'm Pete Thinkful, and Pete's Background headings, as well as Pete's image, should be horizontally centered on the page. 
+>> Done in CSS
+
+The About heading should use a larger font size than the Hi! I'm Pete Thinkful and Pete's Background subheadings.
+>>Done in HTML using H1 and H2
+
+Pete's image should be completely round and have a border that is 2px wide with a color of #003049. To achieve this, you may add the necessary CSS rules to the .image-circle class that's already provided for you.
+>> Done 
+
+The styling requirements for the Portfolio section are as follows:
+The Portfolio heading, project name (such as Abstract Red), and project image should be horizontally centered on the page.
+>> Done in CSS 
+
+The Portfolio heading should use a larger font size than the project names.
+>>Done in HTML 
+
+
+The styling requirements for the Contact section are as follows:
+The Contact heading should be horizontally centered on the page.
+>>Done in CSS 
+
+Other styling requirements:
+The background color of the page should be set to #eae2b7.
+>> Done in CSS 
+The contents of the header and the footer should be horizontally centered on the page.
+>> Done in CSS 
+
+Anchor tags should have a color of #d62828. On hover, they should change their color to #f77f00.
+>> Done in CSS
+
+*/
+
+
+/* Difficulties:
+1- Circular image border is not showing
+2- Can't add "spaces" after each link
+3- too much space before Pete's Background
+4- all my text is centered, can't get it to align left
+5- Lists' bullets and numbers are way to the left 
